@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./build",
+      "rootDir": "./src",
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "sourceMap": true,
+      "declarationDir": "./dist",
+      "baseUrl": "./src",
+      "paths": {
+        "*": ["node_modules/*"]
+      }
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
