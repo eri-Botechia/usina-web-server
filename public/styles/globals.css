@@ -1,0 +1,17 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+:root{
+    font-size: 16px;
+}
+
+
+.heading__h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #333;
+}
